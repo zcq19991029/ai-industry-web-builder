@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI 行业网页开发"
+  short_description: "开发或改造行业型 AI 网站"
+  default_prompt: "使用 $ai-industry-web-builder 设计并实现一个行业型 AI 网站，先确认行业、信源、输出渠道和部署方式。"
