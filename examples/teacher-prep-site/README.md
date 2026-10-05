@@ -16,7 +16,7 @@ Linux/macOS：
 ../../scripts/init-aihot.sh /opt/teacher-prep-site
 ```
 
-初始化后，在目标项目复制 `.env.example` 为 `.env`，填写 `ADMIN_PASSWORD`、`LLM_BASE_URL`、`LLM_MODEL` 和 `LLM_API_KEY`。支持 DeepSeek 或硅基流动的 OpenAI 兼容接口。密钥只放在本机或服务器环境变量中。
+初始化后，在目标项目复制 `.env.example` 为 `.env`，填写 `ADMIN_PASSWORD`、`LLM_BASE_URL`、`LLM_MODEL` 和 `LLM_API_KEY`。当前示例使用硅基流动的 OpenAI 兼容接口（`https://api.siliconflow.cn/v1`）；模型名称以硅基流动模型广场当前可用名称为准。密钥只放在本机或服务器环境变量中。
 
 ## 内容约定
 
