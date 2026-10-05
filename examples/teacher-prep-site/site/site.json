@@ -1,0 +1,8 @@
+{
+  "name": "Teacher Prep Hub",
+  "shortName": "TeacherPrep",
+  "mcpPrefix": "teacher_prep",
+  "editionTimes": {"daily":"08:00","weekly":"10:00","monthly":"10:30"},
+  "audience": ["teachers","researchers"],
+  "publicOutputs": ["web","rss","api","mcp","agent-markdown"]
+}

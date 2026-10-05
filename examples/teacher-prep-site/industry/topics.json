@@ -1,0 +1,8 @@
+{
+  "topics": [
+    {"key": "plc", "name": "PLC基础与应用", "keywords": ["PLC", "梯形图", "S7-1200"]},
+    {"key": "robotics", "name": "工业机器人", "keywords": ["工业机器人", "示教器", "轨迹规划"]},
+    {"key": "safety", "name": "实训安全", "keywords": ["安全", "实训室", "风险"]},
+    {"key": "policy", "name": "职业教育政策与竞赛", "keywords": ["职业教育", "技能竞赛", "课程标准"]}
+  ]
+}

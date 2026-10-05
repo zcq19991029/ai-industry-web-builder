@@ -1,0 +1,6 @@
+{
+  "sources": [
+    {"id":"demo-local","name":"Local Demo","kind":"external","config":{"description":"Demo only"},"tier":"T1","interval_minutes":1440,"tags":["demo"]},
+    {"id":"rss-education-placeholder","name":"Education RSS (verify first)","kind":"rss","config":{"feedUrl":"https://example.com/replace-with-verified-feed.xml"},"tier":"T1","interval_minutes":180,"tags":["policy"]}
+  ]
+}

@@ -8,6 +8,8 @@
 - 教师备课资料站模板
 - 高职机电行业资讯站模板
 - 日报、周报、月报、RSS、API、MCP 和 Agent 内容出口的扩展规范
+- `examples/teacher-prep-site/`：固定 AIHOT 版本的教师备课配置、演示数据和初始化脚本
+- `examples/mechatronics-site/`：PLC、单片机、机器人和智能制造行业配置
 
 本项目借鉴 [AIHOT](https://github.com/KKKKhazix/AIHOT) 的公开架构思想，不使用 AIHOT 的名称、Logo、信源名单或运营数据。
 
@@ -54,6 +56,20 @@ Copy-Item -Recurse . C:\Users\25466\.codex\skills\ai-industry-web-builder
 ## 开发检查
 
 提交前检查 Skill frontmatter、参考文档链接、中文示例和两个模板试用结果。网页项目本身还应执行类型检查、测试和冒烟测试，并分别验证“构建成功”和“真实访问成功”。
+
+## 生成可运行项目
+
+教师备课模板通过脚本固定拉取 AIHOT 提交 `9acad0c3d7687d9210c2b7774f83799dfd36734b`，不会把上游完整源码复制到本仓库：
+
+```powershell
+./scripts/init-aihot.ps1 -Target C:\work\teacher-prep-site
+```
+
+```bash
+./scripts/init-aihot.sh /opt/teacher-prep-site
+```
+
+模板默认关闭采集和模型调用，先用本地演示数据验收。需要真实摘要时，在目标项目 `.env` 中配置 DeepSeek 或硅基流动的 OpenAI 兼容地址、模型和密钥。未安装 Docker 的电脑只能完成文档、配置和脚本检查；Linux Docker 运行需另行验证。
 
 ## 许可证
 

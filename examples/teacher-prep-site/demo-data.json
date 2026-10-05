@@ -1,0 +1,17 @@
+{
+  "course": "Electrical Control Technology",
+  "major": "Mechatronics",
+  "grade": "Year 2",
+  "term": "2026 Spring",
+  "topics": ["PLC", "Industrial Robots", "Training Safety", "Education Policy"],
+  "items": [
+    {
+      "title": "PLC training safety checklist demo",
+      "summary": "Local demo data for validating classification and summaries.",
+      "source": "Local demo",
+      "url": "https://example.com/teacher-prep/demo",
+      "publishedAt": "2026-01-01T08:00:00+08:00",
+      "labels": ["training-safety", "class-preparation"]
+    }
+  ]
+}

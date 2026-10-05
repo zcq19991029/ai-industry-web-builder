@@ -1,0 +1,5 @@
+{
+  "education": {"major": "机电一体化技术", "courses": ["电气控制技术", "PLC技术", "工业机器人基础"], "grades": ["一年级", "二年级", "三年级"]},
+  "reporting": {"includeSource": true, "includePublishedAt": true, "separateTeachingSuggestion": true},
+  "publicAccess": "anonymous-read-admin-write"
+}
